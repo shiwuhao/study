@@ -6,5 +6,10 @@
             "email": "shiwuhao@juzifenqi.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "App\\":"app/"
+        }
+    }
 }
